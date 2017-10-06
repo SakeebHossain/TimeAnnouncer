@@ -1,0 +1,28 @@
+{
+  "name": "timeannouncer",
+  "version": "1.0.0",
+  "description": "a simple app that reads out the current time at user specified intervals.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SakeebHossain/TimeAnnouncer.git"
+  },
+  "author": "HardDriveSoul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SakeebHossain/TimeAnnouncer/issues"
+  },
+  "homepage": "https://github.com/SakeebHossain/TimeAnnouncer#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "howler": "^2.0.4",
+    "mongodb": "^2.2.31"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}

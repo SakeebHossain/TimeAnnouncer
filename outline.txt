@@ -1,0 +1,10 @@
+table voice
+columns : gender number sound_file
+
+-site gets user's current date and time and loads it 
+-user sets time interval preference
+-user has a variable called "next_call_time" which stores a timestamp which indicates
+ the next time the user want the voice to call
+-e.g. user chooses every 5mins and current time is 4:37 so next-call = 4:42
+-site keeps checking if current_time == next_call_time. If it true, then a 
+ hour, minute and period (am/pm) are sound files are requested from server and played
